@@ -28,8 +28,8 @@ def generate_response(input_text):
 
 
 # Page title
-st.set_page_config(page_title='learning with chat by openai')
-st.title('🦜🔗 openai chat')
+st.set_page_config(page_title='💬learning with chat by openai')
+st.title('💬 openai chat🦜🔗')
 
 openai_api_key = st.sidebar.text_input('OpenAI API Key', type='password')
 st.sidebar.warning(
